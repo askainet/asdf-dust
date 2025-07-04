@@ -11,6 +11,7 @@ on:
       - '.all-contributorsrc'
   schedule:
     - cron: '0 0 * * 5'
+  workflow_dispatch:
 
 jobs:
   plugin_test:
